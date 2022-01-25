@@ -1,2 +1,2 @@
-# paidfornothing
-How much you've been paid to do nothing
+# paidfornohing
+Just learning some nodejs and react
