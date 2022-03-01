@@ -1,0 +1,122 @@
+.earnings-callout {
+    flex-direction: row;
+    height: 50px;
+    width: 100%;
+    padding: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: large;
+    font-weight: 800;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.form {
+    flex-direction: column;;
+    height: 50px;
+    width: 30em;  
+    display: flex;
+    position: relative;
+}
+
+.form input {
+  margin: 10px;
+  height: 100%;
+  width: 100%;
+  padding-left: 45px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  color: #383838;
+  background: #dde1e700;
+  border-radius: 15px;
+  box-shadow: inset 2px 2px 5px #babecc,
+              inset -5px -5px 10px #ffffff73;
+}
+
+.form input:focus ~ label{
+    box-shadow: inset 2px 2px 5px #babecc,
+                inset -1px -1px 2px #ffffff73;
+}
+
+.form select {
+    margin: 10px;
+    height: 100%;
+    width: 100%;
+    padding-left: 45px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    color: #383838;
+    background: #dde1e700;
+    border-radius: 15px;
+    box-shadow: inset 2px 2px 5px #babecc,
+                inset -5px -5px 10px #ffffff73;
+}
+
+.form select > option{
+    font-size: 18px;
+    color: #ffffff;
+    background: #dde1e700;
+    border-radius: 15px;
+    box-shadow: inset 2px 2px 5px #babecc,
+                inset -5px -5px 10px #ffffff73;
+}
+
+.button-inactive{
+    margin: 25px 10px 10px 10px;
+    width: 100%;
+    min-width: 350px;
+    height: 50px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    background: #dde1e700;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px #babecc,
+                -5px -5px 10px #ffffff73,
+                inset 2px 2px 2px #ffffff73,
+                inset -2px -2px 2px #babecc;
+    transition: all 0.2s;
+}
+
+.button-inactive:hover{
+    background: #52525200;
+    box-shadow: 6px 6px 10px #babecc,
+                -10px -10px 15px #ffffff73,
+                inset 2px 2px 2px #ffffff73,
+                inset -2px -2px 2px #babecc;
+}
+
+.button-active{
+    margin: 25px 10px 10px 10px;
+    width: 100%;
+    min-width: 350px;
+    height: 50px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    background: #dde1e700;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: inset 2px 2px 5px #babecc,
+                inset -5px -5px 10px #ffffff73,
+                2px 2px 3px #ffffff73,
+                -2px -2px 3px #babecc;
+    transition: all 0.3s;
+}
+
+.button-active:hover{
+    box-shadow: inset 4px 4px 7px #babecc,
+                inset -7px -7px 12px #ffffff73,
+                2px 2px 3px #ffffff73,
+                -2px -2px 3px #babecc;
+}
