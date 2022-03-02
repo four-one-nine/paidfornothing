@@ -67,7 +67,7 @@ export default class UserForm extends Component {
       return (
         <>
         <form className='form' id='myForm'>
-            <div className="row">
+            <div className="row fade-in-bottom ">
                 {/*Base Income - for inactive*/}
                 {!this.state.active && 
                 <input type='text' name='dollars' placeholder='$50000' onChange={updateIncome.bind(this)}></input> }
@@ -81,7 +81,7 @@ export default class UserForm extends Component {
                 </select> }
 
                 {/*Base income and selector for active state */}
-                {this.state.active && <div className='earnings-callout'>
+                {this.state.active && <div className='earnings-callout fade-in'>
                     At a rate of $
                     {this.state.incomeBase} <> </>
                     {this.state.incomeUnit}
@@ -90,7 +90,7 @@ export default class UserForm extends Component {
             
             <div className='row'>
                 {/*Start/Stop Button*/}
-                <button type='start' onClick={startStop.bind(this)} className={this.state.active ? 'button-active' : 'button-inactive'}>
+                <button type='start' onClick={startStop.bind(this)} className={this.state.active ? 'button-active fade-in-bottom' : 'button-inactive fade-in-bottom'}>
                 {this.state.active ? 'Stop' : 'Start'}
                 </button>
 
