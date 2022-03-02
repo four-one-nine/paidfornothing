@@ -21,7 +21,9 @@ function Navbar() {
             <div className='info-item'>
                 <h1>About this App</h1>
                 <p>Hi! If you're reading this, you may be wondering what this app exists for. Here's a little story!</p>
-                <p>There was a period of time I was doing an internship at a company during school. Due to an issue with my co-worker's and my own onboarding process, we didn't have any computer. This was a problem because the responsbilities of the job were 100% on the computer, meaning that we couldn't do our job. Our supervisor told us to "Make it look like we're doing something" while we waited for this issue to get sorted out. So my co-worker and I brought in our own personal laptops and programmed this app onto an Arduino. The idea being simple - we were being paid to sit at our desks and do nothing. Years later, as I decided I wanted to venture into learning some of the basics of React, I made this!</p>
+                <p>There was a period of time I was doing an internship at a company during school. When we started there, the onboarding process got messed up, meaning that my co-worker and I were both left without a company computer. This was a problem because the responsbilities of the job were 100% on the computer, meaning that we couldn't do our job! While we waited for this issue to get sorted out, our supervisor told us to "Make it look like we're doing something".</p>
+                <p>So my co-worker and I brought in our own personal laptops and programmed the first ever version of this app onto an Arduino. The idea being simple - we were being paid to sit at our desks and do nothing, and we wanted to see just how much we were being paid for it!</p>
+                <p>Years later, I decided I wanted to venture into learning some of the basics of React & JS. This app immediately came to mind as one of the projects which would work really well as a starter project, so here we are!</p>
             </div>    
         </div>
     </nav>
