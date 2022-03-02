@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/paidfornothing/static/css/main.d4fa9375.css",
+    "main.js": "/paidfornothing/static/js/main.0357f705.js",
+    "index.html": "/paidfornothing/index.html",
+    "main.d4fa9375.css.map": "/paidfornothing/static/css/main.d4fa9375.css.map",
+    "main.0357f705.js.map": "/paidfornothing/static/js/main.0357f705.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4fa9375.css",
+    "static/js/main.0357f705.js"
+  ]
+}
