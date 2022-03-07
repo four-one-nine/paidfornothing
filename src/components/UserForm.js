@@ -36,7 +36,7 @@ export default class UserForm extends Component {
     
     //Will increment the earnedIncome value accordingly and then update the prop using changeIncome
     countUp(){
-         console.log('Tick, is active: ', this.state.active ? 'true' : 'false')
+         //console.log('Tick, is active: ', this.state.active ? 'true' : 'false')
          if(this.state.active)
          {
             var base = this.state.incomeBase;
@@ -103,14 +103,14 @@ export default class UserForm extends Component {
 
 //Updates the base income for the user
 function updateIncome(e) {
-    var newIncome = parseFloat(e.target.value);
+    var newIncome = e.target.value;
     if (!isNaN(newIncome)){
         this.setState({incomeBase : newIncome})
     }
     else
     {
-        alert('Only enter numbers please');
-        document.forms["myForm"].reset();
+        console.log('NaN!')
+        e.target.value = this.state.incomeBase;
     }
 }
  

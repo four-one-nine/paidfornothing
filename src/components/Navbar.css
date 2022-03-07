@@ -35,7 +35,10 @@ p {
     opacity: 0;
     position: absolute;
     max-width: 600px;
+    max-height: 90vh;
     top: 80px;
+    padding: 40px;
+    border-radius: 15px;
     visibility: hidden;
     transition: all 0.5s ease;
   }
@@ -43,10 +46,9 @@ p {
   .info-menu.active {
     opacity: 1;
     z-index: 1;
+    overflow:auto;
     visibility: visible;
-    padding: 40px;
     background: #fff;
-    border-radius: 15px;
     transition: all 0.5s ease;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.274);
     
